@@ -1,0 +1,22 @@
+// Egypt
+digraph {
+	A [label="Early Dynastic Period (3150 BCE)"]
+	B [label="Old Kingdom (2686 BCE)"]
+	C [label="First Intermediate Period (2181 BCE)"]
+	D [label="Middle Kingdom (2055 BCE)"]
+	E [label="Second Intermediate Period (1650 BCE)"]
+	F [label="New Kingdom (1550 BCE)"]
+	G [label="Third Intermediate Period (1069 BCE)"]
+	H [label="Achaeminid Empire (672 BCE)"]
+	I [label="Ptolemaic Egypt (332 BCE)"]
+	J [label="Roman Empire (30 BCE)"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+	F -> G
+	G -> H
+	H -> I
+	I -> J
+}
