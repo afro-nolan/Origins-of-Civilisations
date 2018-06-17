@@ -1,0 +1,30 @@
+// Mesopotamia
+digraph {
+	A [label="Sumer (4500BCE)"]
+	B [label="Akkadian Empire (2334BCE)"]
+	C [label=Assyria]
+	D [label=Babylonia]
+	E [label="Neo-Assyria"]
+	F [label="Neo-Babylonia"]
+	G [label="Median Empire"]
+	H [label="Achaeminid Empire"]
+	I [label="Macedonian Empire"]
+	J [label="Seleucid Empire"]
+	K [label="Parthian Empire"]
+	L [label="Roman Empire"]
+	N [label="Achaeminid Empire"]
+	M [label="Elam (2700 BCE)"]
+	A -> B
+	B -> C
+	B -> D
+	C -> E
+	D -> F
+	E -> G
+	G -> H
+	H -> I
+	I -> J
+	J -> K
+	K -> L
+	F -> H
+	M -> N
+}
