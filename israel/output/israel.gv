@@ -1,0 +1,22 @@
+// Mesopotamia
+digraph {
+	A [label="Kingdom Of Israel (1050 BCE)"]
+	B [label="Kingdom Of Israel (930 BCE)"]
+	C [label="Kingdom Of Judah (930 BCE)"]
+	D [label="Neo-Assyrian Empire"]
+	E [label="Neo-Babylonia"]
+	F [label="Achaeminid Empire"]
+	G [label="Neo-Assyrian Empire"]
+	I [label="Neo-Babylonia"]
+	J [label="Achaeminid Empire"]
+	H [label="Yehud (586 BCE)"]
+	A -> B
+	A -> C
+	B -> D
+	D -> E
+	E -> F
+	C -> G
+	G -> I
+	I -> J
+	J -> H
+}
