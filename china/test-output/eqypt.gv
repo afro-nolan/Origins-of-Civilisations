@@ -1,0 +1,14 @@
+// Egypt
+digraph {
+	A [label="Xia Dynasty (2070 BCE)"]
+	B [label="Shang Dynasty (1600 BCE)"]
+	C [label="Zhou Dynasty (1046 BCE)"]
+	D [label="Spring and Autumn Period: States Divided (722 BCE)"]
+	E [label="Warring States Period (476 BCE)"]
+	F [label="Imperial China: Qin Dynasty (221 BCE)"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	E -> F
+}
