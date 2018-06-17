@@ -1,6 +1,6 @@
 from graphviz import Digraph 
 
-dot = Digraph(comment="Egypt")
+dot = Digraph(comment="China")
 
 dot.node("A", "Xia Dynasty (2070 BCE)")
 dot.node("B", "Shang Dynasty (1600 BCE)")
@@ -14,5 +14,5 @@ dot.edges(["AB", "BC", "CD", "DE", "EF"])
 
 
 
-dot.render('test-output/eqypt.gv', view=True)  
-'test-output/egypt.gv.pdf'
+dot.render('test-output/china.gv', view=True)  
+'test-output/china.gv.pdf'
