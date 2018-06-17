@@ -1,0 +1,18 @@
+// Achaeminid
+digraph {
+	A [label="Achaeminid Empire (550 BCE)"]
+	B [label="Seleucid Empire (312 BCE)"]
+	C [label="Kingdom of Armenia"]
+	D [label="Restored to Seleucid Empire (69 BCE)"]
+	E [label="Annexed by Roman Empire (63 BCE)"]
+	F [label="Parthian Empire (247 BCE)"]
+	G [label="Sassanid Empire Establised (224 AD) "]
+	H [label="Islamic Conquest (651 AD)"]
+	A -> B
+	A -> F
+	B -> C
+	C -> D
+	D -> E
+	F -> G
+	G -> H
+}
